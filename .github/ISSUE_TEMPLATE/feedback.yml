@@ -1,0 +1,45 @@
+name: Testergebnis oder Einsatzwunsch
+description: Fehler, unklare Befunde oder konkrete Arbeitsabläufe beschreiben
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "Experimentelle Testversion. Bitte ausschließlich synthetische Beispiele teilen. Keine Schlüssel, personenbezogenen Daten oder vertraulichen Firmeninformationen."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Worum geht es?
+      options:
+        - Fehler
+        - Unverständlicher Befund
+        - Konkreter Einsatzwunsch
+        - Sonstige Rückmeldung
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Was hast du getestet oder welchen Arbeitsschritt möchtest du verbessern?
+      description: "Modus und Fallnummer nennen, falls vorhanden. Bei einem Einsatzwunsch: Wie erledigst du die Aufgabe bisher?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hast du erwartet?
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Was ist tatsächlich passiert?
+      description: "Bei Einsatzwünschen: Welcher Nutzen fehlt dir noch?"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Öffentliche Rückmeldung
+      options:
+        - label: Mein Beitrag enthält keine Zugangsdaten, personenbezogenen Daten oder vertraulichen Informationen.
+          required: true
