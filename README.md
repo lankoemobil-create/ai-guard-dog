@@ -30,7 +30,7 @@ Details: [Teststand und Grenzen](BETA-STATUS.md).
 
 ## Rückmeldung geben
 
-Über [Issues](../../issues) kannst du Verständnisprobleme, Fehler und konkrete Einsatzwünsche melden. Bitte beschreibe erwartetes und beobachtetes Verhalten mit einem kleinen synthetischen Beispiel. **Keine Passwörter, Schlüssel, personenbezogenen Daten oder vertraulichen Unternehmensinformationen veröffentlichen.**
+Über [Issues](https://github.com/lankoemobil-create/ai-guard-dog/issues) kannst du Verständnisprobleme, Fehler und konkrete Einsatzwünsche melden. Bitte beschreibe erwartetes und beobachtetes Verhalten mit einem kleinen synthetischen Beispiel. **Keine Passwörter, Schlüssel, personenbezogenen Daten oder vertraulichen Unternehmensinformationen veröffentlichen.**
 
 Hilfreich ist besonders: Welche KI-Aktion musst du heute prüfen? Wie prüfst du sie bisher? Welcher Arbeitsschritt würde durch dieses Werkzeug kürzer oder zuverlässiger?
 
